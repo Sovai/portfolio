@@ -39,7 +39,7 @@ const buttons = [
 
 export default function SpotlightPreview() {
   return (
-    <div className="h-screen w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+    <div className="h-screen w-full rounded-md flex items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"
@@ -54,7 +54,7 @@ export default function SpotlightPreview() {
           peek into the future of creativity. Stay tuned for what&apos;s next.
         </p>
 
-        <div className="flex justify-center mt-10 gap-x-3">
+        <div className="flex flex-wrap justify-center mt-10 gap-3">
           {buttons.map((button) => (
             <Button key={button.name} onClick={() => button.onClick()}>
               {button.name}
