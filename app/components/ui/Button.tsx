@@ -1,6 +1,7 @@
 "use client";
 
-import { cn } from "@/utils/cn";
+import React from "react";
+import { cn } from "../../utils/cn";
 
 interface ButtonProps {
   children: React.ReactNode;
@@ -13,8 +14,8 @@ export const Button = ({ children, className, ...props }: ButtonProps) => {
     <button
       {...props}
       className={cn(
-        className,
-        "bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block"
+        "bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block",
+        className
       )}
     >
       <span className="absolute inset-0 overflow-hidden rounded-full">
