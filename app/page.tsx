@@ -49,9 +49,7 @@ export default function SpotlightPreview() {
           New Look <br /> is coming soon.
         </h1>
         <p className="mt-5 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-          Discover a blend of blogs, projects, and tools that showcase my
-          journey in tech. This portfolio isn&apos;t just my work; it&apos;s a
-          peek into the future of creativity. Stay tuned for what&apos;s next.
+        This portfolio showcases my ongoing learning journey in the field of technology through a collection of blogs, projects, and tools. It's a humble attempt to share my experiences and insights, while continuously striving to grow and explore new frontiers.
         </p>
 
         <div className="flex flex-wrap justify-center mt-10 gap-3">
